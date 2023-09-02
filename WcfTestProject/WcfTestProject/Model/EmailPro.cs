@@ -1,6 +1,6 @@
 using System.Data.Entity;
 
-namespace WcfTestProject.Model
+namespace WcfTestProject
 {
     public class EmailPro : DbContext
     {

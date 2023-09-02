@@ -3,9 +3,7 @@ using System.ServiceModel;
 using System.Threading;
 using Autofac;
 using Autofac.Integration.Wcf;
-using WcfTestProject.Interface_Implementations;
-using WcfTestProject.Interfaces;
-using WcfTestProject.Model;
+using WcfTestProject;
 
 // service library
 
@@ -30,7 +28,7 @@ namespace EmailProServer
             if (assemblyQualifiedName != null)
             {
                 var adminService = factory.CreateServiceHost(assemblyQualifiedName, Array.Empty<Uri>());
-                //adminService.Open();
+                adminService.Open();
             }
 
             var constructorString = typeof(UserService).AssemblyQualifiedName;

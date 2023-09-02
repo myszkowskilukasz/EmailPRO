@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace WcfTestProject.Model
+namespace WcfTestProject
 {
     [DataContract]
     [KnownType(typeof(User))]

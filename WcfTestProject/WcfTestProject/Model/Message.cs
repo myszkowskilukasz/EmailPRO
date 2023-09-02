@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Runtime.Serialization;
 
-namespace WcfTestProject.Model
+namespace WcfTestProject
 {
     [DataContract]
     public class Message : DbObject

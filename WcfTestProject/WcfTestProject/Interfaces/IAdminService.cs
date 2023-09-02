@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ServiceModel;
-using WcfTestProject.Model;
+using WcfTestProject;
 
-namespace WcfTestProject.Interfaces
+namespace WcfTestProject
 {
     [ServiceContract]
     public interface IAdminService

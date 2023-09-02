@@ -1,4 +1,4 @@
-﻿using WcfTestProject.Model;
+﻿using WcfTestProject;
 
 namespace WcfTestProject.Migrations
 {

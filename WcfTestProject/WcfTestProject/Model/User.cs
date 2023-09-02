@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace WcfTestProject.Model
+namespace WcfTestProject
 {
     [DataContract]
     public class User : DbObject

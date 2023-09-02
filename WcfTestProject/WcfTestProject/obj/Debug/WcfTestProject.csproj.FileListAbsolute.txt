@@ -1,0 +1,32 @@
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.dll.config
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.dll
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.pdb
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.dll
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.xml
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.AssemblyReference.cache
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations.Init.resources
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations._001.resources
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations._002.resources
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.GenerateResource.cache
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.CoreCompileInputs.cache
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.CopyComplete
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.dll
+C:\Users\lukmy\Desktop\Zima 22 23\JiPP\Do oddania\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.pdb
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.dll.config
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.dll
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\WcfTestProject.pdb
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.dll
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.xml
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.AssemblyReference.cache
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations.Init.resources
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations._001.resources
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.Migrations._002.resources
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.GenerateResource.cache
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.CoreCompileInputs.cache
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.csproj.CopyComplete
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.dll
+C:\Users\myszk\Documents\Projects\WcfTestProject\WcfTestProject\obj\Debug\WcfTestProject.pdb

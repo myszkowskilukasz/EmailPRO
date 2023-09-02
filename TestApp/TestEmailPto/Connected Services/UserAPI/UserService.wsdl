@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="UserService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfTestProject/UserService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfTestProject/UserService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfTestProject/UserService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfTestProject" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUserService_GetSentMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSentMessages" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetSentMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSentMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetReceivedMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceivedMessages" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_GetReceivedMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReceivedMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessage" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessage" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_SendMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_IsUserActive_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUserActive" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_IsUserActive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUserActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ReadMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadMessage" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ReadMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteMessageByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessageByID" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_DeleteMessageByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMessageByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ReadMessageByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadMessageByID" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_ReadMessageByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadMessageByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_isMessageRead_InputMessage">
+    <wsdl:part name="parameters" element="tns:isMessageRead" />
+  </wsdl:message>
+  <wsdl:message name="IUserService_isMessageRead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isMessageReadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUserService">
+    <wsdl:operation name="GetSentMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetSentMessages" message="tns:IUserService_GetSentMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetSentMessagesResponse" message="tns:IUserService_GetSentMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/GetReceivedMessages" message="tns:IUserService_GetReceivedMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/GetReceivedMessagesResponse" message="tns:IUserService_GetReceivedMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/DeleteMessage" message="tns:IUserService_DeleteMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/DeleteMessageResponse" message="tns:IUserService_DeleteMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/SendMessage" message="tns:IUserService_SendMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/SendMessageResponse" message="tns:IUserService_SendMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserActive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/IsUserActive" message="tns:IUserService_IsUserActive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/IsUserActiveResponse" message="tns:IUserService_IsUserActive_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/ReadMessage" message="tns:IUserService_ReadMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/ReadMessageResponse" message="tns:IUserService_ReadMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/DeleteMessageByID" message="tns:IUserService_DeleteMessageByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/DeleteMessageByIDResponse" message="tns:IUserService_DeleteMessageByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadMessageByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/ReadMessageByID" message="tns:IUserService_ReadMessageByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/ReadMessageByIDResponse" message="tns:IUserService_ReadMessageByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="isMessageRead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserService/isMessageRead" message="tns:IUserService_isMessageRead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserService/isMessageReadResponse" message="tns:IUserService_isMessageRead_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IUserService" type="tns:IUserService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSentMessages">
+      <soap:operation soapAction="http://tempuri.org/IUserService/GetSentMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedMessages">
+      <soap:operation soapAction="http://tempuri.org/IUserService/GetReceivedMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessage">
+      <soap:operation soapAction="http://tempuri.org/IUserService/DeleteMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage">
+      <soap:operation soapAction="http://tempuri.org/IUserService/SendMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserActive">
+      <soap:operation soapAction="http://tempuri.org/IUserService/IsUserActive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadMessage">
+      <soap:operation soapAction="http://tempuri.org/IUserService/ReadMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageByID">
+      <soap:operation soapAction="http://tempuri.org/IUserService/DeleteMessageByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadMessageByID">
+      <soap:operation soapAction="http://tempuri.org/IUserService/ReadMessageByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isMessageRead">
+      <soap:operation soapAction="http://tempuri.org/IUserService/isMessageRead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserService">
+    <wsdl:port name="BasicHttpBinding_IUserService" binding="tns:BasicHttpBinding_IUserService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfTestProject/UserService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

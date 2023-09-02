@@ -30,7 +30,7 @@ namespace EmailProServer
             if (assemblyQualifiedName != null)
             {
                 var adminService = factory.CreateServiceHost(assemblyQualifiedName, Array.Empty<Uri>());
-                adminService.Open();
+                //adminService.Open();
             }
 
             var constructorString = typeof(UserService).AssemblyQualifiedName;
